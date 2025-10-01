@@ -122,7 +122,6 @@ public class StudentController {
    */
   @PostMapping("/students/writeFile")
   public Object writeJson(@RequestBody Student student) {
-    studentService.writeJson(student);
     return studentService.writeJson(student);
   }
 
